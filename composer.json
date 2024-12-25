@@ -1,0 +1,8 @@
+{
+    "name": "user/ovs",
+    "description": "A PHP project for testing Jenkins pipeline.",
+    "require": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "minimum-stability": "stable"
+}
