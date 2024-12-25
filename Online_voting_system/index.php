@@ -11,7 +11,7 @@ include('header.php');
 	<div class="container">
 	     
 		<a class="brand">
-		<img src="admin/images/chmsc.png" width="60" height="60">
+		<img src="admin/images/chmsc.png" width="61" height="61">
  	</a>
 	<a class="brand">
 	 <h2>CHMSC Laboratory School Voting System</h2>
@@ -91,13 +91,13 @@ _redirect('voting4.php');
 }
 if($count == 1 || $count1 == 1 || $count3 == 1 || $count4 == 1 || $count5 == 1){ ?>
 	<div class="alert alert-error">
-    <button class="close" data-dismiss="alert">�</button>
+    <button class="close" data-dismiss="alert"> </button>
    You Can Only Vote Once
     </div>
 <?php
 }else{ ?>
 <div class="alert alert-error">
-    <button class="close" data-dismiss="alert">�</button>
+    <button class="close" data-dismiss="alert"> </button>
    Please check your username and password
     </div>
 
